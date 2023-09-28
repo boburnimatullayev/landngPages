@@ -1,0 +1,2 @@
+export { ContactP } from "./contacts";
+

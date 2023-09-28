@@ -1,0 +1,541 @@
+:root {
+  --border-radius: 30px;
+  /* -------------------- gradient -------------------- */
+  --gradient-1: linear-gradient(
+    270deg,
+    #c9af7f 0%,
+    #4b4636 50.52%,
+    #050b0d 100%
+  );
+
+  /* -------------------- colors -------------------- */
+  --white: #fff;
+
+  --primary-50: #faf7f2;
+  --primary-100: #eee6d7;
+  --primary-200: #e6dac4;
+  --primary-300: #dbc9a9;
+  --primary-400: #d4bf99;
+  --primary-500: #c9af7f;
+  --primary-600: #b79f74;
+  --primary-700: #8f7c5a;
+  --primary-800: #6f6046;
+  --primary-900: #544a35;
+
+  --secondary-50: #f0eefb;
+  --secondary-100: #d1cbf4;
+  --secondary-200: #bbb2ee;
+  --secondary-300: #9d8ee7;
+  --secondary-400: #8979e2;
+  --secondary-500: #6c57db;
+  --secondary-600: #624fc7;
+  --secondary-700: #4d3e9b;
+  --secondary-800: #3b3078;
+  --secondary-900: #2d255c;
+
+  --dark-50: #e7e8e9;
+  --dark-100: #b4b8ba;
+  --dark-200: #8f9598;
+  --dark-300: #5c6569;
+  --dark-400: #3d474c;
+  --dark-500: #0c191f;
+  --dark-600: #0b171c;
+  --dark-700: #091216;
+  --dark-800: #070e11;
+  --dark-900: #050b0d;
+
+  /* -------------------- shadow -------------------- */
+  --shadow-1: 0px 8px 32px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* -------------------- typhography xs -------------------- */
+@media (min-width: 320px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 36px "Mulish";
+    --typography1-400: normal 400 36px "Mulish";
+    --typography1-500: normal 500 36px "Mulish";
+    --typography1-700: normal 700 36px "Mulish";
+    --typography1-900: normal 900 36px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 28px "Mulish";
+    --typography2-400: normal 400 28px "Mulish";
+    --typography2-500: normal 500 28px "Mulish";
+    --typography2-700: normal 700 28px "Mulish";
+    --typography2-900: normal 900 28px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 24px "Mulish";
+    --typography3-400: normal 400 24px "Mulish";
+    --typography3-500: normal 500 24px "Mulish";
+    --typography3-700: normal 700 24px "Mulish";
+    --typography3-900: normal 900 24px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 18px "Mulish";
+    --typography4-400: normal 400 18px "Mulish";
+    --typography4-500: normal 500 18px "Mulish";
+    --typography4-700: normal 700 18px "Mulish";
+    --typography4-900: normal 900 18px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 16px "Mulish";
+    --typography5-400: normal 400 16px "Mulish";
+    --typography5-500: normal 500 16px "Mulish";
+    --typography5-700: normal 700 16px "Mulish";
+    --typography5-900: normal 900 16px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 14px "Mulish";
+    --typography6-400: normal 400 14px "Mulish";
+    --typography6-500: normal 500 14px "Mulish";
+    --typography6-700: normal 700 14px "Mulish";
+    --typography6-900: normal 900 14px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 12px "Mulish";
+    --typography7-400: normal 400 12px "Mulish";
+    --typography7-500: normal 500 12px "Mulish";
+    --typography7-700: normal 700 12px "Mulish";
+    --typography7-900: normal 900 12px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 10px "Mulish";
+    --typography8-400: normal 400 10px "Mulish";
+    --typography8-500: normal 500 10px "Mulish";
+    --typography8-700: normal 700 10px "Mulish";
+    --typography8-900: normal 900 10px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 8px "Mulish";
+    --typography9-400: normal 400 8px "Mulish";
+    --typography9-500: normal 500 8px "Mulish";
+    --typography9-700: normal 700 8px "Mulish";
+    --typography9-900: normal 900 8px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 6px "Mulish";
+    --typography10-400: normal 400 6px "Mulish";
+    --typography10-500: normal 500 6px "Mulish";
+    --typography10-700: normal 700 6px "Mulish";
+    --typography10-900: normal 900 6px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 4px "Mulish";
+    --typography11-400: normal 400 4px "Mulish";
+    --typography11-500: normal 500 4px "Mulish";
+    --typography11-700: normal 700 4px "Mulish";
+    --typography11-900: normal 900 4px "Mulish";
+  }
+}
+
+/* -------------------- typhography sm -------------------- */
+@media (min-width: 576px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 38px "Mulish";
+    --typography1-400: normal 400 38px "Mulish";
+    --typography1-500: normal 500 38px "Mulish";
+    --typography1-700: normal 700 38px "Mulish";
+    --typography1-900: normal 900 38px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 32px "Mulish";
+    --typography2-400: normal 400 32px "Mulish";
+    --typography2-500: normal 500 32px "Mulish";
+    --typography2-700: normal 700 32px "Mulish";
+    --typography2-900: normal 900 32px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 28px "Mulish";
+    --typography3-400: normal 400 28px "Mulish";
+    --typography3-500: normal 500 28px "Mulish";
+    --typography3-700: normal 700 28px "Mulish";
+    --typography3-900: normal 900 28px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 20px "Mulish";
+    --typography4-400: normal 400 20px "Mulish";
+    --typography4-500: normal 500 20px "Mulish";
+    --typography4-700: normal 700 20px "Mulish";
+    --typography4-900: normal 900 20px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 18px "Mulish";
+    --typography5-400: normal 400 18px "Mulish";
+    --typography5-500: normal 500 18px "Mulish";
+    --typography5-700: normal 700 18px "Mulish";
+    --typography5-900: normal 900 18px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 16px "Mulish";
+    --typography6-400: normal 400 16px "Mulish";
+    --typography6-500: normal 500 16px "Mulish";
+    --typography6-700: normal 700 16px "Mulish";
+    --typography6-900: normal 900 16px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 14px "Mulish";
+    --typography7-400: normal 400 14px "Mulish";
+    --typography7-500: normal 500 14px "Mulish";
+    --typography7-700: normal 700 14px "Mulish";
+    --typography7-900: normal 900 14px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 10px "Mulish";
+    --typography8-400: normal 400 10px "Mulish";
+    --typography8-500: normal 500 10px "Mulish";
+    --typography8-700: normal 700 10px "Mulish";
+    --typography8-900: normal 900 10px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 8px "Mulish";
+    --typography9-400: normal 400 8px "Mulish";
+    --typography9-500: normal 500 8px "Mulish";
+    --typography9-700: normal 700 8px "Mulish";
+    --typography9-900: normal 900 8px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 6px "Mulish";
+    --typography10-400: normal 400 6px "Mulish";
+    --typography10-500: normal 500 6px "Mulish";
+    --typography10-700: normal 700 6px "Mulish";
+    --typography10-900: normal 900 6px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 4px "Mulish";
+    --typography11-400: normal 400 4px "Mulish";
+    --typography11-500: normal 500 4px "Mulish";
+    --typography11-700: normal 700 4px "Mulish";
+    --typography11-900: normal 900 4px "Mulish";
+  }
+}
+
+/* -------------------- typhography md -------------------- */
+@media (min-width: 768px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 42px "Mulish";
+    --typography1-400: normal 400 42px "Mulish";
+    --typography1-500: normal 500 42px "Mulish";
+    --typography1-700: normal 700 42px "Mulish";
+    --typography1-900: normal 900 42px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 38px "Mulish";
+    --typography2-400: normal 400 38px "Mulish";
+    --typography2-500: normal 500 38px "Mulish";
+    --typography2-700: normal 700 38px "Mulish";
+    --typography2-900: normal 900 38px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 32px "Mulish";
+    --typography3-400: normal 400 32px "Mulish";
+    --typography3-500: normal 500 32px "Mulish";
+    --typography3-700: normal 700 32px "Mulish";
+    --typography3-900: normal 900 32px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 24px "Mulish";
+    --typography4-400: normal 400 24px "Mulish";
+    --typography4-500: normal 500 24px "Mulish";
+    --typography4-700: normal 700 24px "Mulish";
+    --typography4-900: normal 900 24px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 20px "Mulish";
+    --typography5-400: normal 400 20px "Mulish";
+    --typography5-500: normal 500 20px "Mulish";
+    --typography5-700: normal 700 20px "Mulish";
+    --typography5-900: normal 900 20px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 18px "Mulish";
+    --typography6-400: normal 400 18px "Mulish";
+    --typography6-500: normal 500 18px "Mulish";
+    --typography6-700: normal 700 18px "Mulish";
+    --typography6-900: normal 900 18px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 16px "Mulish";
+    --typography7-400: normal 400 16px "Mulish";
+    --typography7-500: normal 500 16px "Mulish";
+    --typography7-700: normal 700 16px "Mulish";
+    --typography7-900: normal 900 16px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 12px "Mulish";
+    --typography8-400: normal 400 12px "Mulish";
+    --typography8-500: normal 500 12px "Mulish";
+    --typography8-700: normal 700 12px "Mulish";
+    --typography8-900: normal 900 12px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 10px "Mulish";
+    --typography9-400: normal 400 10px "Mulish";
+    --typography9-500: normal 500 10px "Mulish";
+    --typography9-700: normal 700 10px "Mulish";
+    --typography9-900: normal 900 10px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 8px "Mulish";
+    --typography10-400: normal 400 8px "Mulish";
+    --typography10-500: normal 500 8px "Mulish";
+    --typography10-700: normal 700 8px "Mulish";
+    --typography10-900: normal 900 8px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 6px "Mulish";
+    --typography11-400: normal 400 6px "Mulish";
+    --typography11-500: normal 500 6px "Mulish";
+    --typography11-700: normal 700 6px "Mulish";
+    --typography11-900: normal 900 6px "Mulish";
+  }
+}
+
+/* -------------------- typhography lg -------------------- */
+@media (min-width: 992px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 48px "Mulish";
+    --typography1-400: normal 400 48px "Mulish";
+    --typography1-500: normal 500 48px "Mulish";
+    --typography1-700: normal 700 48px "Mulish";
+    --typography1-900: normal 900 48px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 42px "Mulish";
+    --typography2-400: normal 400 42px "Mulish";
+    --typography2-500: normal 500 42px "Mulish";
+    --typography2-700: normal 700 42px "Mulish";
+    --typography2-900: normal 900 42px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 36px "Mulish";
+    --typography3-400: normal 400 36px "Mulish";
+    --typography3-500: normal 500 36px "Mulish";
+    --typography3-700: normal 700 36px "Mulish";
+    --typography3-900: normal 900 36px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 28px "Mulish";
+    --typography4-400: normal 400 28px "Mulish";
+    --typography4-500: normal 500 28px "Mulish";
+    --typography4-700: normal 700 28px "Mulish";
+    --typography4-900: normal 900 28px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 22px "Mulish";
+    --typography5-400: normal 400 22px "Mulish";
+    --typography5-500: normal 500 22px "Mulish";
+    --typography5-700: normal 700 22px "Mulish";
+    --typography5-900: normal 900 22px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 20px "Mulish";
+    --typography6-400: normal 400 20px "Mulish";
+    --typography6-500: normal 500 20px "Mulish";
+    --typography6-700: normal 700 20px "Mulish";
+    --typography6-900: normal 900 20px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 18px "Mulish";
+    --typography7-400: normal 400 18px "Mulish";
+    --typography7-500: normal 500 18px "Mulish";
+    --typography7-700: normal 700 18px "Mulish";
+    --typography7-900: normal 900 18px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 14px "Mulish";
+    --typography8-400: normal 400 14px "Mulish";
+    --typography8-500: normal 500 14px "Mulish";
+    --typography8-700: normal 700 14px "Mulish";
+    --typography8-900: normal 900 14px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 12px "Mulish";
+    --typography9-400: normal 400 12px "Mulish";
+    --typography9-500: normal 500 12px "Mulish";
+    --typography9-700: normal 700 12px "Mulish";
+    --typography9-900: normal 900 12px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 10px "Mulish";
+    --typography10-400: normal 400 10px "Mulish";
+    --typography10-500: normal 500 10px "Mulish";
+    --typography10-700: normal 700 10px "Mulish";
+    --typography10-900: normal 900 10px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 8px "Mulish";
+    --typography11-400: normal 400 8px "Mulish";
+    --typography11-500: normal 500 8px "Mulish";
+    --typography11-700: normal 700 8px "Mulish";
+    --typography11-900: normal 900 8px "Mulish";
+  }
+}
+
+/* -------------------- typhography xl -------------------- */
+@media (min-width: 1200px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 64px "Mulish";
+    --typography1-400: normal 400 64px "Mulish";
+    --typography1-500: normal 500 64px "Mulish";
+    --typography1-700: normal 700 64px "Mulish";
+    --typography1-900: normal 900 64px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 48px "Mulish";
+    --typography2-400: normal 400 48px "Mulish";
+    --typography2-500: normal 500 48px "Mulish";
+    --typography2-700: normal 700 48px "Mulish";
+    --typography2-900: normal 900 48px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 42px "Mulish";
+    --typography3-400: normal 400 42px "Mulish";
+    --typography3-500: normal 500 42px "Mulish";
+    --typography3-700: normal 700 42px "Mulish";
+    --typography3-900: normal 900 42px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 32px "Mulish";
+    --typography4-400: normal 400 32px "Mulish";
+    --typography4-500: normal 500 32px "Mulish";
+    --typography4-700: normal 700 32px "Mulish";
+    --typography4-900: normal 900 32px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 24px "Mulish";
+    --typography5-400: normal 400 24px "Mulish";
+    --typography5-500: normal 500 24px "Mulish";
+    --typography5-700: normal 700 24px "Mulish";
+    --typography5-900: normal 900 24px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 22px "Mulish";
+    --typography6-400: normal 400 22px "Mulish";
+    --typography6-500: normal 500 22px "Mulish";
+    --typography6-700: normal 700 22px "Mulish";
+    --typography6-900: normal 900 22px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 18px "Mulish";
+    --typography7-400: normal 400 18px "Mulish";
+    --typography7-500: normal 500 18px "Mulish";
+    --typography7-700: normal 700 18px "Mulish";
+    --typography7-900: normal 900 18px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 16px "Mulish";
+    --typography8-400: normal 400 16px "Mulish";
+    --typography8-500: normal 500 16px "Mulish";
+    --typography8-700: normal 700 16px "Mulish";
+    --typography8-900: normal 900 16px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 14px "Mulish";
+    --typography9-400: normal 400 14px "Mulish";
+    --typography9-500: normal 500 14px "Mulish";
+    --typography9-700: normal 700 14px "Mulish";
+    --typography9-900: normal 900 14px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 12px "Mulish";
+    --typography10-400: normal 400 12px "Mulish";
+    --typography10-500: normal 500 12px "Mulish";
+    --typography10-700: normal 700 12px "Mulish";
+    --typography10-900: normal 900 12px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 10px "Mulish";
+    --typography11-400: normal 400 10px "Mulish";
+    --typography11-500: normal 500 10px "Mulish";
+    --typography11-700: normal 700 10px "Mulish";
+    --typography11-900: normal 900 10px "Mulish";
+  }
+}
+
+/* -------------------- typhography 2xl -------------------- */
+@media (min-width: 1440px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 72px "Mulish";
+    --typography1-400: normal 400 72px "Mulish";
+    --typography1-500: normal 500 72px "Mulish";
+    --typography1-700: normal 700 72px "Mulish";
+    --typography1-900: normal 900 72px "Mulish";
+
+    /* typography2 */
+    --typography2-300: normal 300 64px "Mulish";
+    --typography2-400: normal 400 64px "Mulish";
+    --typography2-500: normal 500 64px "Mulish";
+    --typography2-700: normal 700 64px "Mulish";
+    --typography2-900: normal 900 64px "Mulish";
+
+    /* typography3 */
+    --typography3-300: normal 300 48px "Mulish";
+    --typography3-400: normal 400 48px "Mulish";
+    --typography3-500: normal 500 48px "Mulish";
+    --typography3-700: normal 700 48px "Mulish";
+    --typography3-900: normal 900 48px "Mulish";
+
+    /* typography4 */
+    --typography4-300: normal 300 36px "Mulish";
+    --typography4-400: normal 400 36px "Mulish";
+    --typography4-500: normal 500 36px "Mulish";
+    --typography4-700: normal 700 36px "Mulish";
+    --typography4-900: normal 900 36px "Mulish";
+
+    /* typography5 */
+    --typography5-300: normal 300 28px "Mulish";
+    --typography5-400: normal 400 28px "Mulish";
+    --typography5-500: normal 500 28px "Mulish";
+    --typography5-700: normal 700 28px "Mulish";
+    --typography5-900: normal 900 28px "Mulish";
+
+    /* typography6 */
+    --typography6-300: normal 300 24px "Mulish";
+    --typography6-400: normal 400 24px "Mulish";
+    --typography6-500: normal 500 24px "Mulish";
+    --typography6-700: normal 700 24px "Mulish";
+    --typography6-900: normal 900 24px "Mulish";
+
+    /* typography7 */
+    --typography7-300: normal 300 20px "Mulish";
+    --typography7-400: normal 400 20px "Mulish";
+    --typography7-500: normal 500 20px "Mulish";
+    --typography7-700: normal 700 20px "Mulish";
+    --typography7-900: normal 900 20px "Mulish";
+
+    /* typography8 */
+    --typography8-300: normal 300 18px "Mulish";
+    --typography8-400: normal 400 18px "Mulish";
+    --typography8-500: normal 500 18px "Mulish";
+    --typography8-700: normal 700 18px "Mulish";
+    --typography8-900: normal 900 18px "Mulish";
+
+    /* typography9 */
+    --typography9-300: normal 300 16px "Mulish";
+    --typography9-400: normal 400 16px "Mulish";
+    --typography9-500: normal 500 16px "Mulish";
+    --typography9-700: normal 700 16px "Mulish";
+    --typography9-900: normal 900 16px "Mulish";
+
+    /* typography10 */
+    --typography10-300: normal 300 14px "Mulish";
+    --typography10-400: normal 400 14px "Mulish";
+    --typography10-500: normal 500 14px "Mulish";
+    --typography10-700: normal 700 14px "Mulish";
+    --typography10-900: normal 900 14px "Mulish";
+
+    /* typography11 */
+    --typography11-300: normal 300 12px "Mulish";
+    --typography11-400: normal 400 12px "Mulish";
+    --typography11-500: normal 500 12px "Mulish";
+    --typography11-700: normal 700 12px "Mulish";
+    --typography11-900: normal 900 12px "Mulish";
+  }
+}
